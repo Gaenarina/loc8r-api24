@@ -7,7 +7,7 @@ const apiOptions = {
   server: 'http://localhost:3000'
 };
 if(process.env.NODE_ENV === 'production'){
-  apiOptions.server = 'https://loc8r-api-86hf.onrender.com';
+  apiOptions.server = 'https://loc8r-api24-frs3.onrender.com';
 }
 
 const requestOptions = {
@@ -253,4 +253,5 @@ module.exports = {
 
 /*
   
+
 */
